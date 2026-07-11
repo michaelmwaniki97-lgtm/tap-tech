@@ -68,9 +68,14 @@ export default function Home() {
             >
               FAQ
             </a>
-            <button className="bg-primary-container text-on-primary-fixed font-bold px-6 py-2 rounded-lg active:scale-95 transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,212,0,0.3)]">
-              Order Now
-            </button>
+            <a
+  href="https://wa.me/254732730770?text=Hi%20TAP%20TECH!%20I'm%20interested%20in%20ordering%20an%20NFC%20business%20card.%0A%0AName%3A%0ACompany%3A%0APhone%3A%0AEmail%3A%0APreferred%20Card%20Color%3A"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-primary-container text-on-primary-fixed font-bold px-8 py-4 rounded-xl active:scale-95 transition-all text-body-md hover:shadow-[0_0_25px_rgba(255,212,0,0.4)] inline-block"
+>
+  Order Now
+</a>
           </div>
           <button className="md:hidden text-on-surface">
             <span className="material-symbols-outlined">menu</span>
@@ -93,9 +98,14 @@ export default function Home() {
               Share your contact details, portfolio, socials and business information instantly with one tap. No apps required.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="bg-primary-container text-on-primary-fixed font-bold px-8 py-4 rounded-xl active:scale-95 transition-all text-body-md hover:shadow-[0_0_25px_rgba(255,212,0,0.4)]">
-                Order Your Card
-              </button>
+            <a
+  href="/profile"
+  className="bg-primary-container text-on-primary-fixed font-bold px-8 py-4 rounded-xl active:scale-95 transition-all text-body-md hover:shadow-[0_0_25px_rgba(255,212,0,0.4)] inline-block"
+>
+  View Demo Profile
+</a>
+                 
+              
               <button className="bg-transparent border border-white/30 text-on-surface font-bold px-8 py-4 rounded-xl active:scale-95 transition-all text-body-md hover:bg-white/5">
                 Watch Demo
               </button>
@@ -220,7 +230,7 @@ export default function Home() {
               <div className="mb-8">
                 <h3 className="font-headline-md text-headline-md mb-2">Standard Card</h3>
                 <div className="flex items-baseline gap-1">
-                  <span className="text-headline-lg font-bold text-on-surface">KES 2,500</span>
+                  <span className="text-headline-lg font-bold text-on-surface">KES 800</span>
                   <span className="text-on-surface-variant font-label-sm">ONCE</span>
                 </div>
               </div>
@@ -254,7 +264,7 @@ export default function Home() {
               <div className="mb-8">
                 <h3 className="font-headline-md text-headline-md mb-2">Custom Edition</h3>
                 <div className="flex items-baseline gap-1">
-                  <span className="text-headline-lg font-bold text-primary-container">KES 4,500</span>
+                  <span className="text-headline-lg font-bold text-primary-container">KES 1,000</span>
                   <span className="text-on-surface-variant font-label-sm">ONCE</span>
                 </div>
               </div>
@@ -330,9 +340,16 @@ export default function Home() {
             <p className="text-body-lg text-on-surface-variant mb-10">
               Order your TAP TECH card and have your digital profile live in minutes.
             </p>
-            <button className="bg-primary-container text-on-primary-fixed font-bold px-12 py-5 rounded-2xl active:scale-95 transition-all text-body-lg hover:shadow-[0_0_40px_rgba(255,212,0,0.4)]">
-              Order Now
-            </button>
+            <a
+  href="https://wa.me/254732730770?text=Hi%20TAP%20TECH!%20I'm%20interested%20in%20ordering%20an%20NFC%20business%20card.%0A%0AName%3A%0ACompany%3A%0APhone%3A%0AEmail%3A%0APreferred%20Card%20Color%3A"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-primary-container text-on-primary-fixed font-bold px-12 py-5 rounded-2xl active:scale-95 transition-all text-body-lg hover:shadow-[0_0_40px_rgba(255,212,0,0.4)]"
+>
+  Order Now
+</a>
+              
+          
           </div>
         </section>
       </main>
